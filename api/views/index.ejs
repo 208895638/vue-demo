@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+  </body>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+  <script>
+    $(function(){
+      $.ajax({
+        type: "GET",
+        url: "msg",
+        dataType: "json",
+        success:function(res){
+          console.log(res)
+        },
+        error(err){
+          console.log(err)
+        }
+      })
+    })
+  </script>
+</html>
