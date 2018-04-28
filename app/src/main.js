@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import App from './App'
+import App from './components/haha'
 import vueResource from "vue-resource"
 import routers from 'vue-router'
 import IndexPage from "./pages/index"

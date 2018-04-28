@@ -1,7 +1,9 @@
 <template>
   <div>
-      237 屌丝寝室
-        寝室长:屌丝军伟
+      <h2>洪雨</h2>
+      <h3>
+        <img src="./hy.jpg" alt="">
+      </h3>
   </div>
 </template>
 <script>
