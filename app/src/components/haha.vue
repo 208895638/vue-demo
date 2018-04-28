@@ -7,6 +7,7 @@
   </div>
 </template>
 <script>
+import rem from "./rem.js"
 export default {
   created () {
       const url = "http://localhost:3000/msg"
@@ -26,3 +27,12 @@ export default {
   }
 }
 </script>
+<style scoped>
+h2{
+  font: .24rem/.5rem  "微软雅黑"
+}
+h3 img{
+  width: 100%;
+}
+</style>
+
